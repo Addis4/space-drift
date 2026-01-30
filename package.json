@@ -1,0 +1,15 @@
+{
+  "name": "space-drift",
+  "version": "1.0.0",
+  "description": "A minimalist anti-gravity casual game.",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "game",
+    "canvas",
+    "minimalist"
+  ],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Space Drift</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="A minimalist anti-gravity casual game.">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+        <div id="ui-layer">
+            <div id="start-screen" class="screen active">
+                <h1>Space Drift</h1>
+                <p>Use Arrow Keys or WASD to nudge.</p>
+                <p class="subtle">Drift to survive.</p>
+                <button id="start-btn">Integrate</button>
+            </div>
+            <div id="hud" class="screen hidden">
+                <div id="score">0</div>
+            </div>
+            <div id="game-over-screen" class="screen hidden">
+                <h2>Drift Ended</h2>
+                <p id="final-score">Score: 0</p>
+                <button id="restart-btn">Re-Integrate</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
